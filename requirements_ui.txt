@@ -1,0 +1,5 @@
+# Laptop 2 (frontend): no model, no data, no scikit-learn needed
+streamlit
+requests
+folium
+pandas

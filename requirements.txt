@@ -1,0 +1,12 @@
+# notebooks (Google Colab already has all of these except where noted)
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+folium
+pyarrow
+joblib
+# alt_lightgbm_pipeline/ and notebook 03_models_C (LightGBM) only:
+lightgbm
+optuna
