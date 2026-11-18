@@ -1,0 +1,10 @@
+{
+  "beta": 40.0,
+  "gap_s": 60.0,
+  "unreachable": 2.0,
+  "same_arc_back_tol": 5.0,
+  "limit_factor": 2.0,
+  "limit_extra": 100.0,
+  "limit_max": 3000.0,
+  "emission_floor": 0.0001
+}

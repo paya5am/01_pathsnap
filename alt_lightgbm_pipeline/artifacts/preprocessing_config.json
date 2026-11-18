@@ -1,0 +1,26 @@
+{
+  "projection": "local equirectangular centred on trip mean GPS position (D5)",
+  "candidate_delta_m": 20.0,
+  "candidate_cap_m": 150.0,
+  "candidate_spacing_m": 10.0,
+  "heading_half_window": 3,
+  "moving_speed_mps": 2.0,
+  "features": [
+    "dist",
+    "dist_rel",
+    "rank",
+    "n_cands",
+    "d_near",
+    "head_diff",
+    "head_cos",
+    "speed",
+    "moving",
+    "arc_len_log",
+    "two_way",
+    "off_frac",
+    "dist_prev3",
+    "dist_next3",
+    "head_diff_x_moving"
+  ],
+  "notes": "Zero-length arcs and self-loops are never candidates; duplicate twins -> smallest id (D11)."
+}
