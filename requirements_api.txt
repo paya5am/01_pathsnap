@@ -1,0 +1,9 @@
+# Laptop 1 (backend). scikit-learn MUST equal the version recorded in artifacts/manifest.json.
+numpy
+pandas
+scipy
+scikit-learn
+joblib
+fastapi
+uvicorn
+requests

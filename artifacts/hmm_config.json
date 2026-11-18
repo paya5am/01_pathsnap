@@ -1,0 +1,32 @@
+{
+ "emission_model": "hist_gb_tuned_ll",
+ "decoder": {
+  "beta": 3.0,
+  "break_s": 300.0,
+  "gap_exp": 0.0
+ },
+ "back_tol_m": 15.0,
+ "reach_limit": "3*d_gps + 200 m",
+ "max_dt_for_transitions_s": 600,
+ "tuned_on": "80 training trips, out-of-fold probabilities",
+ "train_oof_top1": {
+  "classifier_only": 0.8520849767135278,
+  "hmm": 0.9246080200555418
+ },
+ "student_test": {
+  "classifier only": {
+   "top1": 0.8668269482046725,
+   "continuity_strict": 0.9315891169251658,
+   "continuity_reachable": 0.9820356154368375,
+   "route_arc_f1_mean_trip": 0.911126591479212,
+   "trip_top1_mean": 0.8902532005425645
+  },
+  "classifier + HMM": {
+   "top1": 0.9343542570428056,
+   "continuity_strict": 0.9830278343516633,
+   "continuity_reachable": 0.9997388897592564,
+   "route_arc_f1_mean_trip": 0.9665970030041331,
+   "trip_top1_mean": 0.9430905686478184
+  }
+ }
+}
